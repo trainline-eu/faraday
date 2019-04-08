@@ -151,6 +151,9 @@ workflows:
       - ruby23:
           requires:
             - linting
+      - jruby92:
+          requires:
+            - linting
       - deploy:
           requires:
             - ruby23
