@@ -25,7 +25,7 @@ SimpleCov.formatters = [SimpleCov::Formatter::HTMLFormatter, Coveralls::SimpleCo
 
 SimpleCov.start do
   add_filter '/spec/'
-  minimum_coverage 84
+  minimum_coverage 83
   minimum_coverage_by_file 26
 end
 
