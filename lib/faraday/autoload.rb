@@ -76,6 +76,7 @@ module Faraday
     extend AutoloadHelper
     autoload_all 'faraday/request',
                  UrlEncoded: 'url_encoded',
+                 PartParams: 'part_params',
                  Multipart: 'multipart',
                  Retry: 'retry',
                  Authorization: 'authorization',
